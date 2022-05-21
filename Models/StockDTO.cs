@@ -14,7 +14,7 @@ namespace LondonStockService.Models
 
          //Name of the stock in ticker symbole 
         //Ex: LONSE:AMZ for Londo's stock exchange of Amazon 
-        public string StockName {get;init;}
+        public string StockName {get;set;}
 
         // Description of Stock Name
         public string StockDescription {get;init;}
